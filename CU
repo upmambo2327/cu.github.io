@@ -1,121 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$CU Coin 🐸</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>$CU – Nice to See You</title>
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      font-family: "Comic Sans MS", Arial, sans-serif;
-      background: radial-gradient(circle, #00ff99, #003322);
-      color: #fff;
+      font-family: 'Comic Neue', cursive;
+      background: linear-gradient(135deg, #7cffcb, #74c0fc);
+      color: #111;
       text-align: center;
     }
     header {
-      padding: 100px 20px;
+      padding: 80px 20px;
     }
     h1 {
-      font-size: 4em;
-      text-shadow: 0 0 20px #00ff99;
+      font-size: 64px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 28px;
+      margin-bottom: 30px;
     }
     .btn {
       display: inline-block;
-      margin: 12px;
-      padding: 15px 35px;
-      background: #ff00ff;
+      padding: 15px 30px;
+      background: #000;
       color: #fff;
+      border-radius: 30px;
       text-decoration: none;
-      font-weight: bold;
-      border-radius: 50px;
-      box-shadow: 0 0 15px #ff00ff;
-    }
-    .btn:hover {
-      transform: scale(1.1);
+      margin: 10px;
+      font-size: 18px;
     }
     section {
-      padding: 70px 20px;
+      padding: 60px 20px;
     }
-    .meme {
-      font-size: 2em;
-      margin: 20px 0;
+    .card {
+      background: #fff;
+      border-radius: 20px;
+      padding: 30px;
+      max-width: 700px;
+      margin: 20px auto;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    }
+    .tokenomics div {
+      margin: 10px 0;
+      font-size: 20px;
     }
     footer {
-      padding: 30px;
+      padding: 40px 20px;
       font-size: 14px;
       opacity: 0.7;
-    }
-    .spin {
-      animation: spin 4s linear infinite;
-      display: inline-block;
-    }
-    @keyframes spin {
-      from { transform: rotate(0deg); }
-      to { transform: rotate(360deg); }
     }
   </style>
 </head>
 <body>
 
 <header>
-  <h1>🌀 $CU COIN 🌀</h1>
-  <p class="meme">The coin you didn’t ask for, but deserve 😈</p>
-  <p class="meme spin">🚀🌕🔥</p>
-
-  <a class="btn" href="#">BUY $CU</a>
-  <a class="btn" href="#">CHART</a>
+  <h1>$CU 👋</h1>
+  <h2>Nice to see you on Solana</h2>
+  <a class="btn" href="#">Buy $CU</a>
+  <a class="btn" href="#">Join Community</a>
 </header>
 
 <section>
-  <h2>🧠 What is $CU?</h2>
-  <p>$CU is a 100% useless Solana meme coin.</p>
-  <p>No utility. No roadmap. Only vibes.</p>
-  <p class="meme">If you know, you know 😎</p>
+  <div class="card">
+    <h2>What is $CU?</h2>
+    <p>
+      $CU means <strong>"Nice to see you"</strong>.<br/>
+      A fun, friendly and welcoming meme coin on Solana.<br/>
+      No stress, no promises — just vibes 👀✨
+    </p>
+  </div>
 </section>
 
 <section>
-  <h2>📊 Tokenomics</h2>
-  <p>🪙 Supply: 1,000,000,000 $CU</p>
-  <p>💸 Tax: 0%</p>
-  <p>🔒 Liquidity: Probably locked (trust me bro)</p>
-  <p>⚡ Network: Solana</p>
+  <div class="card tokenomics">
+    <h2>Tokenomics</h2>
+    <div>🪙 Total Supply: 1,000,000,000 $CU</div>
+    <div>🔥 Tax: 0%</div>
+    <div>💧 Liquidity: Locked</div>
+    <div>🌐 Network: Solana</div>
+  </div>
 </section>
 
 <section>
-  <h2>🗺 Roadmap</h2>
-  <p>Phase 1: Create memes</p>
-  <p>Phase 2: More memes</p>
-  <p>Phase 3: Legendary memes</p>
-  <p class="meme">Phase 4: ???</p>
+  <div class="card">
+    <h2>How to Buy</h2>
+    <p>
+      1. Get a Solana wallet (Phantom)<br/>
+      2. Buy SOL<br/>
+      3. Swap SOL to <strong>$CU</strong><br/>
+      4. Smile — nice to see you 😄
+    </p>
+  </div>
 </section>
 
 <section>
-  <h2>🌐 Community</h2>
-  <a class="btn" href="#">Twitter</a>
-  <a class="btn" href="#">Telegram</a>
-  <a class="btn" href="#">DexScreener</a>
+  <div class="card">
+    <h2>Community</h2>
+    <a class="btn" href="#">Twitter (X)</a>
+    <a class="btn" href="#">Telegram</a>
+    <a class="btn" href="#">Discord</a>
+  </div>
 </section>
 
 <footer>
-  © 2026 $CU Coin  
-  <br>
-  This is a meme. Not financial advice 🤡
+  <p>Contract Address: SOON 👀</p>
+  <p>This is a meme coin. No financial advice.</p>
 </footer>
 
 </body>
 </html>
-
-<section>
-  <h2>📜 Contract Address</h2>
-  <p id="ca">SOON 👀</p>
-  <button class="btn" onclick="copyCA()">Copy</button>
-</section>
-
-<script>
-function copyCA() {
-  const ca = document.getElementById("ca").innerText;
-  navigator.clipboard.writeText(ca);
-  alert("Contract copied 😈");
-}
-</script>
