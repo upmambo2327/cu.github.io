@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>$CU Coin 🐸</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Comic Sans MS", Arial, sans-serif;
+      background: radial-gradient(circle, #00ff99, #003322);
+      color: #fff;
+      text-align: center;
+    }
+    header {
+      padding: 100px 20px;
+    }
+    h1 {
+      font-size: 4em;
+      text-shadow: 0 0 20px #00ff99;
+    }
+    .btn {
+      display: inline-block;
+      margin: 12px;
+      padding: 15px 35px;
+      background: #ff00ff;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 50px;
+      box-shadow: 0 0 15px #ff00ff;
+    }
+    .btn:hover {
+      transform: scale(1.1);
+    }
+    section {
+      padding: 70px 20px;
+    }
+    .meme {
+      font-size: 2em;
+      margin: 20px 0;
+    }
+    footer {
+      padding: 30px;
+      font-size: 14px;
+      opacity: 0.7;
+    }
+    .spin {
+      animation: spin 4s linear infinite;
+      display: inline-block;
+    }
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🌀 $CU COIN 🌀</h1>
+  <p class="meme">The coin you didn’t ask for, but deserve 😈</p>
+  <p class="meme spin">🚀🌕🔥</p>
+
+  <a class="btn" href="#">BUY $CU</a>
+  <a class="btn" href="#">CHART</a>
+</header>
+
+<section>
+  <h2>🧠 What is $CU?</h2>
+  <p>$CU is a 100% useless Solana meme coin.</p>
+  <p>No utility. No roadmap. Only vibes.</p>
+  <p class="meme">If you know, you know 😎</p>
+</section>
+
+<section>
+  <h2>📊 Tokenomics</h2>
+  <p>🪙 Supply: 1,000,000,000 $CU</p>
+  <p>💸 Tax: 0%</p>
+  <p>🔒 Liquidity: Probably locked (trust me bro)</p>
+  <p>⚡ Network: Solana</p>
+</section>
+
+<section>
+  <h2>🗺 Roadmap</h2>
+  <p>Phase 1: Create memes</p>
+  <p>Phase 2: More memes</p>
+  <p>Phase 3: Legendary memes</p>
+  <p class="meme">Phase 4: ???</p>
+</section>
+
+<section>
+  <h2>🌐 Community</h2>
+  <a class="btn" href="#">Twitter</a>
+  <a class="btn" href="#">Telegram</a>
+  <a class="btn" href="#">DexScreener</a>
+</section>
+
+<footer>
+  © 2026 $CU Coin  
+  <br>
+  This is a meme. Not financial advice 🤡
+</footer>
+
+</body>
+</html>
+
+<section>
+  <h2>📜 Contract Address</h2>
+  <p id="ca">SOON 👀</p>
+  <button class="btn" onclick="copyCA()">Copy</button>
+</section>
+
+<script>
+function copyCA() {
+  const ca = document.getElementById("ca").innerText;
+  navigator.clipboard.writeText(ca);
+  alert("Contract copied 😈");
+}
+</script>
